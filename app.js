@@ -18,6 +18,7 @@ app.get('/ingredients',(req,res)=>{
 
 app.post('/order',(req,res)=>{
     console.log(req.body);
+    res.json(req.body);
 });
 
 app.listen(4000,(error)=> {
